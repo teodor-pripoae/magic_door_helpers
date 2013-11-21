@@ -54,7 +54,7 @@ class MagicDoorHelper
   #
   # If the argument is nil, nor is a default set, it will attempt to generate one from the destination param.
   def public_path=(path)
-    @public_path = path || MagicDoor.defaults[:public_path] || destination_path.gsub(File.join(RAILS_ROOT, 'public'), '')
+    @public_path = path || MagicDoor.defaults[:public_path] || destination_path.gsub(File.join(Rails.root.to_s, 'public'), '')
   end
 
   # Uses the text and MD options hash to generate an unique token
