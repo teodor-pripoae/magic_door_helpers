@@ -15,5 +15,5 @@ EOF
   spec.has_rdoc = true
   spec.rdoc_options << "--main" << "README.rdoc" << "--title" <<  "MagicDoor generator" << "--line-numbers"
                        "--webcvs" << "http://github.com/viseztrance/magic_door"
-  spec.extra_rdoc_files = ["README.rdoc", "LICENSE"]
+  spec.extra_rdoc_files = ["README.rdoc", "MIT-LICENSE"]
 end
