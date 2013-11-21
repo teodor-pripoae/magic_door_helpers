@@ -10,7 +10,7 @@ EOF
   spec.email = "daniel@viseztrance.com"
   spec.homepage = "http://github.com/viseztrance/magic_door_helpers"
 
-  spec.files = Dir["{bin,lib,docs}/**/*"] + ["README.rdoc", "LICENSE", "Rakefile", "magic_door_helpers.gemspec"]
+  spec.files = Dir["{bin,lib,docs}/**/*"] + ["README.rdoc", "MIT-LICENSE", "Rakefile", "magic_door_helpers.gemspec"]
 
   spec.has_rdoc = true
   spec.rdoc_options << "--main" << "README.rdoc" << "--title" <<  "MagicDoor generator" << "--line-numbers"
